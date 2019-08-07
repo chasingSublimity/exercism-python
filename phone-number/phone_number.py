@@ -19,8 +19,4 @@ class Phone(object):
 
     def pretty(self):
         return f"({self.area_code}) {self.exchange_code}-{self.line_number}"
-
         
-
-# p = Phone("12234567890")
-# p.area_code
